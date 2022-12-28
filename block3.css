@@ -1,0 +1,243 @@
+/* thirt */
+.thirt{
+  display: block;
+  position: relative;
+  width: 1440px;
+  height: 2700px;
+  overflow: hidden;
+}
+.thirt .one{
+  position: absolute;
+  top: 102px;
+  animation: dvig2 6s infinite linear alternate;
+}
+ .thirt .two{
+  position: absolute;
+  top: 139px;
+  left: 127px;
+}
+.thirt .three{
+  position: absolute;
+  top:134px;
+  left: 554px;
+  animation: dvig1 6s 7s infinite linear;
+}
+.thirt .four{
+  position: absolute;
+  top: 105px;
+  right: 0px;
+}
+
+.thirt .five{
+  position: absolute;
+  top: 240px;
+  left: 220px;
+}
+.thirt .six{
+  position: absolute;
+  top: 432px;
+  left: 611px;
+}
+.thirt .seven{
+  position: absolute;
+  top: 501px;
+  left: -300px;
+  animation: dvig2 9s 7s infinite linear alternate;
+}
+.thirt .eight{
+  position: absolute;
+  top: 412px;
+  left: 100px;
+}
+.thirt .nine{
+  position: absolute;
+  left: 166px;
+  top: 587px;
+}
+.thirt .ten{
+ position: absolute;
+ left: 610px;
+ top: 581px;
+ animation: dvig1 6s infinite linear;
+}
+.thirt .elev{
+ position: absolute;
+ top: 604px;
+ right: 0px;
+}
+.thirt .twel{
+ position: absolute;
+ right: 0px;
+ top: 324px;
+}
+.thirt .thirte{
+ position: absolute;
+ top: 469px;
+}
+.thirt .fourte{
+ position: absolute;
+ left: 104px;
+ top: 1690px;
+ width: 570px;
+ animation: color_1 6s infinite alternate;
+}
+.thirt .fifrte{
+ position: absolute;
+ left: 720px;
+ top: 1953px;
+ animation: color_1 6s infinite alternate;
+}
+.thirt .sixente{
+ position: absolute;
+ left: 1000px;
+ top: 1779px;
+}
+.thirt .sevente{
+ position: absolute;
+ left: 1061px;
+ top: 1712px;
+}
+.thirt .ninte{
+ position: absolute;
+ right: 0px;
+ top: 1690px;
+}
+.thirt .twenty{
+ position: absolute;
+ bottom: 0px;
+ animation: color_1 6s infinite alternate;
+}
+.thirt .tw-one{
+ position: absolute;
+ left: 526px;
+ bottom: 0px;
+ animation: color_1 6s infinite alternate;
+}
+.thirt .tw-two{
+ position: absolute;
+ right: 0px;
+ bottom: 0px;
+ animation: color_1 6s infinite alternate;
+}
+/* text  */
+.thirt .n5{
+  display:block;
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  text-transform: uppercase;
+  bottom: 100px;
+  left: 150px;
+  font-size: 66px;
+}
+.thirt .n6{
+  display:block;
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  text-transform: uppercase;
+  bottom: 20px;
+  left: 970px;
+  font-size: 66px;
+}
+/* animation */
+@keyframes dvig1 {
+  0%{
+    left: 600px;
+  }
+  5%{
+    left: 768px;
+  }
+  10%{
+    left: 936px;
+  }
+  15%{
+    left: 1104px;
+  }
+  20%{
+    left: 1272px;
+  }
+  25%{
+    left: 1440px;
+  }
+  30%{
+    left: 1272px;
+  }
+  35%{
+    left: 1104px;
+  }
+  40%{
+    left: 936px;
+  }
+  45%{
+    left: 768px;
+  }
+  50%{
+    left: 600px;
+  }
+  55%{
+    left: 480px;
+  }
+  60%{
+    left: 360px;
+  }
+  65%{
+    left: 240px;
+  }
+  70%{
+    left: 120px;
+  }
+  75%{
+    left: 0px;
+  }
+  80%{
+    left: 120px;
+  }
+  85%{
+    left: 240px;
+  }
+  90%{
+    left: 360px;
+  }
+  95%{
+    left: 480px;
+  }
+  100%{
+    left: 600px;
+  }
+}
+@keyframes dvig2 {
+  0%{
+    left: 0px;
+  }
+  10%{
+    left: 144px;
+  }
+  20%{
+    left: 288px;
+  }
+  30%{
+    left: 432px;
+  }
+  40%{
+    left: 578px;
+  }
+  50%{
+    left: 720px;
+  }
+  60%{
+    left: 864px;
+  }
+  70%{
+    left: 1008px;
+  }
+  80%{
+    left: 1152px;
+  }
+  90%{
+    left: 1296px;
+  }
+  100%{
+    left: 1440px;
+  }
+}

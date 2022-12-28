@@ -1,0 +1,358 @@
+/* first  */
+.first{
+  display: block;
+  position: relative;
+  width: 1440px;
+  height: 1600px;
+}
+.first .one{
+ display: block;
+ position: absolute;
+ width:430px;
+ height: 477px;
+ background: url(image1/p.svg);
+ top: 133px;
+}
+.first .two{
+ position: absolute;
+ left: 300px;
+ top: 350px;
+}
+.first .three{
+  display: block;
+  position: absolute;
+  width:486px;
+  height: 486px;
+  background: url(image1/IandR.svg);
+  left: 480px;
+  top: 100px;
+}
+.first .four{
+  display: block;
+  position: absolute;
+  width:492px;
+  height: 492px;
+  background: url(image1/TandIandA.svg);
+  left: 568px;
+  top: 425px;
+}
+.first .five{
+  display: block;
+  position: absolute;
+  width:517px;
+  height: 517px;
+  background: url(image1/VandAandT.svg);
+  left: 393px;
+  top: 655px;
+}
+.first .six{
+  display: block;
+  position: absolute;
+  width:609px;
+  height: 609px;
+  background: url(image1/VandA.svg);
+ left: 40px;
+ top: 644px;
+}
+.first .seven{
+  display: block;
+  position: absolute;
+  width:706px;
+  height: 706px;
+  background: url(image1/TandE.svg);
+  right: -54px;
+  top: 596px;
+
+}
+.first .eight{
+ position: absolute;
+ top: 435px;
+}
+
+.first .nine{
+ position: absolute;
+ left: 362px;
+}
+.first .ten{
+  position: absolute;
+  left: 93px;
+}
+.first .elev{
+ position: absolute;
+ top: 0;
+ width: 178px;
+ animation: color_1 2s  infinite alternate;
+}
+.first .twel{
+ display: block;
+ position: absolute;
+ background: url(image1/p1.svg);
+ width:469px;
+ height: 489px;
+ left: 68px;
+ top: 37px;
+}
+.first .thirte{
+ position: absolute;
+ right: 0;
+ width:470px;
+}
+.first .cvad{
+ position: absolute;
+ background-color: #237DBC;
+ width: 400px;
+ height: 400px;
+ right: 300px;
+ animation: color_1 2s 2s infinite alternate;
+}
+.first .q_2{
+ position: absolute;
+ border-radius: 50%;
+ background-color: #014E8D;
+ width: 492px;
+ height: 492px;
+ right: 200px;
+ top: 170px;
+}
+.first .fourte{
+ position: absolute;
+ right: 0px;
+ top: 345px;
+}
+.first .fifte{
+ position: absolute;
+ left: 512px;
+ top: 95px;
+ width: 377px;
+ transform: rotate(1deg);
+ animation: color_1 3s  infinite alternate;
+}
+.first .sixte{
+ position: absolute;
+ left: 365px;
+ top: 25px;
+ transform: rotate(1deg);
+ animation: color_1 3s 2s infinite alternate;
+}
+.first .sevente{
+ position: absolute;
+ right: 270px;
+ top: 173px;
+ width: 140px;
+ transform: rotate(1deg);
+ animation: color_1 2s 2s infinite alternate;
+}
+.first .eighte{
+ position: absolute;
+ top: 998px;
+}
+.first .cvad1{
+ position: absolute;
+ background-color: #EC7900;
+ width: 400px;
+ height: 400px;
+ top: 900px;
+ animation: color_1 3s 2s infinite alternate;
+}
+.first .q_3{
+ position: absolute;
+ border-radius: 50%;
+ background-color: #051E47;
+ width: 602px;
+ height: 602px;
+ left:420px;
+ top: 893px;
+}
+.first .ninte{
+ position: absolute;
+ right: 0px;
+ top: 920px;
+}
+.first .q_4{
+ position: absolute;
+ border-radius: 50%;
+ background-color: #EC7900;
+ width: 710px;
+ height: 710px;
+ left:273px;
+ top: 1160px;
+}
+.first .cvad2{
+ position: absolute;
+ background-color: #E0C202;
+ width: 800px;
+ height: 600px;
+ top: 1200px;
+ right: 0px;
+ animation: color_1 2s 2s infinite alternate;
+}
+.first .twenty{
+ position: absolute;
+ right: 0px;
+ top: 1390px;
+}
+.first .tw-one{
+ position: absolute;
+ right: 463px;
+ top: 1492px;
+ transform: rotate(2.2deg);
+ animation: color_1 2s infinite alternate;
+}
+.first .tw-two{
+ position: absolute;
+ right: 0px;
+ top: 1469px;
+ animation: color_1 2s 2s infinite alternate;
+}
+/* obshie */
+.text{
+  font-family:TT Hazelnuts Edu;
+  color: #051E47;
+  text-transform: uppercase;
+}
+/* first-second */
+.first-second{
+  display: block;
+  position: relative;
+  width: 1440px;
+  height: 1000px;
+}
+.first-second .n1{
+  display:block;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  text-transform: uppercase;
+  margin-top: 500px;
+  margin-left: 150px;
+  font-size: 66px;
+}
+.first-second .n2{
+  display:block;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  margin-bottom: 300px;
+  margin-left: 1050px;
+  font-size: 35px;
+}
+.first-second .krug1{
+ position: absolute;
+ background-color: #014E8D;
+ width: 300px;
+ height: 300px;
+ right: 140px;
+ animation: one_pereh 5s infinite linear alternate ;
+}
+
+.first-second .krug2{
+ position: absolute;
+ background-color: #051E47;
+ width: 600px;
+ height: 600px;
+ left:130px;
+ transform: rotate(45deg);
+ animation: two_pereh 12s infinite linear alternate ;
+}
+/* hover*/
+.first .one:hover{
+  background: url(image1/p_1.svg);
+  transition: 1.5s;
+}
+.first .twel:hover{
+  background: url(image1/p1_1.svg);
+  transition: 1.5s;
+}
+.first .four:hover{
+  background: url(image1/TandIandA_1.svg);
+  transition: 1.5s;
+}
+.first .five:hover{
+  background: url(image1/VandAandT_1.svg);
+  transition: 1.5s;
+}
+.first .seven:hover{
+  background: url(image1/TandE_1.svg);
+  transition: 1.5s;
+}
+.first .three:hover{
+  background: url(image1/IandR_1.svg);
+  transition: 1.5s;
+}
+.first .six:hover{
+  background: url(image1/VandA_1.svg);
+  transition: 1.5s;
+}
+/* animation */
+@keyframes one_pereh {
+  0%{
+    border-radius: 50%;
+    top: -100px;
+  }
+  15%{
+    border-radius: 48%;
+    top: 0px;
+  }
+  30%{
+    border-radius: 40%;
+    top: 100px;
+  }
+  45%{
+    border-radius: 32%;
+    top: 200px;
+  }
+  60%{
+    border-radius: 24%;
+    top: 300px;
+  }
+  75%{
+    border-radius: 16%;
+    top: 400px;
+  }
+  90%{
+    border-radius: 8%;
+    top: 500px;
+  }
+  100%{
+    border-radius: 0%;
+    top: 600px;
+  }
+}
+@keyframes two_pereh {
+  0%{
+    border-radius: 50%;
+    top: -600px;
+  }
+  15%{
+    border-radius: 48%;
+    top: -400px;
+  }
+  30%{
+    border-radius: 40%;
+    top: -200px;
+  }
+  45%{
+    border-radius: 32%;
+    top: 0px;
+  }
+  60%{
+    border-radius: 24%;
+    top: 200px;
+  }
+  75%{
+    border-radius: 16%;
+    top: 400px;
+  }
+  90%{
+    border-radius: 8%;
+    top: 550px;
+  }
+  100%{
+    border-radius: 0%;
+    top: 650px;
+  }
+}
+@keyframes color_1 {
+  from{opacity: 100%}
+  to{opacity: 0%;}
+}

@@ -1,0 +1,220 @@
+/* second */
+.second{
+  display: block;
+  position: relative;
+  width: 1440px;
+  height: 1600px;
+}
+.second .one{
+  position: absolute;
+  top: -500px;
+}
+.second .two{
+  position: absolute;
+  top: 36px;
+  left: 100px;
+}
+.second .three{
+  position: absolute;
+  top: 220px;
+  left: 417px;
+}
+.second .four{
+  position: absolute;
+  top: 164px;
+  left: 674px;
+}
+.second .five{
+  position: absolute;
+  top: 329px;
+  left: 852px;
+}
+.second .six{
+  position: absolute;
+  top: 248px;
+  left: 1111px;
+}
+.second .seven{
+  position: absolute;
+  top: 850px;
+  left: 622px;
+}
+.second .eight{
+  position: absolute;
+  top: 921px;
+  left: 1060px;
+}
+.second .block_1{
+  position: absolute;
+  background-color: #014E8D;
+  width: 600px;
+  height: 600px;
+  left:100px;
+  bottom: 668px;
+}
+.second .block_2{
+  position: absolute;
+  background-color: #082D6A;
+  width: 600px;
+  height: 720px;
+  right: 0px;
+  bottom: 197px;
+}
+.second .block_3{
+  position: absolute;
+  background-color: #014E8D;
+  width: 585px;
+  height: 382px;
+  right: 645px;
+  bottom: -21px;
+  transform: rotate(-15deg);
+  overflow: hidden;
+}
+.second .block_4{
+  position: absolute;
+  background-color: #014E8D;
+  width: 361px;
+  height: 468px;
+  right: 454px;
+  top: -343px;
+  transform: rotate(-15deg);
+  overflow: hidden;
+}
+.second .str1{
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  width: 1720px;
+  font-size: 42px;
+  top: 38px;
+  left: -5px;
+  padding: 10px 0;
+  animation: str1 10s linear infinite;
+}
+.second .str2{
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  width: 2200px;
+  font-size: 42px;
+  top: 56px;
+  left: -5px;
+  padding: 10px 0;
+  animation: str2 10s linear infinite;
+}
+/* second-thirt */
+.second-thirt{
+  display: block;
+  position: relative;
+  width: 1440px;
+  height: 300px;
+}
+.second-thirt .n3{
+  display:block;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  margin-top: 200px;
+  margin-left: 150px;
+  font-size: 35px;
+}
+.second-thirt .n4{
+  display:block;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  margin-top: -250px;
+  margin-left: 950px;
+  font-size: 35px;
+}
+.second-thirt .listok1{
+  display: block;
+  position: absolute;
+  width: 630px;
+  height: 413px;
+  left: 40px;
+  background: url(image2/listya.svg);
+  animation: listok1 1.2s steps(1) infinite alternate;
+}
+.second-thirt .listok2{
+  display: block;
+  position: absolute;
+  width: 766px;
+  height: 523px;
+  right: 5px;
+  background: url(image2/listya2.svg);
+  animation: listok2 4s steps(1) infinite alternate;
+}
+/* hover*/
+.second .two:hover{
+  width:350px;
+  left: 30px;
+  top: 25px;
+}
+.second .three:hover{
+  width:350px;
+  top: 200px;
+  left: 400px;
+  transform: rotate(10deg);
+}
+.second .four:hover{
+  width:250px;
+  top: 130px;
+  left: 600px;
+  transform: rotate(-10deg);
+}
+.second .five:hover{
+  width:450px;
+  top: 329px;
+  left: 800px;
+}
+.second .six:hover{
+  width:350px;
+  top: 248px;
+  left: 1111px;
+  transform: rotate(20deg);
+}
+.second .seven:hover{
+  width:550px;
+  top: 850px;
+  left: 350px;
+  transform: rotate(40deg);
+}
+.second .eight:hover{
+  width:300px;
+  top: 870px;
+  left: 1060px;
+}
+/* animation */
+@keyframes listok1 {
+ 0%{background-position: 0px top;
+ top: -320px;}
+ 20%{background-position: -630px top;
+ top: -150px;}
+ 40%{background-position: -1260px top;
+ top: 0px;}
+ 60%{background-position: -1890px top;
+ top: 150px;}
+ 80%{background-position: -2520px top;
+ top: 300px;}
+}
+@keyframes listok2 {
+ 0%{background-position: 0px top;
+ top: -400px;}
+ 20%{background-position: -766px top;
+ top: -200px;}
+ 40%{background-position: -1532px top;
+ top: 0px;}
+ 60%{background-position: -2298px top;
+ top: 200px;}
+ 80%{background-position: -3064px top;
+ top: 400px;}
+}
+@keyframes str1 {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-50%);}
+}
+@keyframes str2 {
+  0% {transform: translateX(0);}
+  100% {transform: translateX(-50%);}
+}
