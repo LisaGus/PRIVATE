@@ -14,7 +14,7 @@
  .thirt .two{
   position: absolute;
   top: 139px;
-  left: 127px;
+  left: -11px;
 }
 .thirt .three{
   position: absolute;
@@ -36,7 +36,7 @@
 .thirt .six{
   position: absolute;
   top: 432px;
-  left: 611px;
+  left: 557px;
 }
 .thirt .seven{
   position: absolute;
@@ -46,13 +46,13 @@
 }
 .thirt .eight{
   position: absolute;
-  top: 412px;
-  left: 100px;
+  top: 520px;
+  left: -100px;
 }
 .thirt .nine{
   position: absolute;
-  left: 166px;
-  top: 587px;
+  left: 30px;
+  top: 564px;
 }
 .thirt .ten{
  position: absolute;

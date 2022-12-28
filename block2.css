@@ -26,7 +26,7 @@
 }
 .second .five{
   position: absolute;
-  top: 329px;
+  top: 480px;
   left: 852px;
 }
 .second .six{
@@ -175,10 +175,10 @@
   transform: rotate(20deg);
 }
 .second .seven:hover{
-  width:550px;
+  width:450px;
   top: 850px;
   left: 350px;
-  transform: rotate(40deg);
+  transform: rotate(15deg);
 }
 .second .eight:hover{
   width:300px;
