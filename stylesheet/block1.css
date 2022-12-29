@@ -10,7 +10,7 @@
  position: absolute;
  width:430px;
  height: 477px;
- background: url(image1/p.svg);
+ background: url(../image1/p.svg);
  top: 133px;
 }
 .first .two{
@@ -23,7 +23,7 @@
   position: absolute;
   width:486px;
   height: 486px;
-  background: url(image1/IandR.svg);
+  background: url(../image1/IandR.svg);
   left: 480px;
   top: 100px;
 }
@@ -32,7 +32,7 @@
   position: absolute;
   width:492px;
   height: 492px;
-  background: url(image1/TandIandA.svg);
+  background: url(../image1/TandIandA.svg);
   left: 568px;
   top: 425px;
 }
@@ -41,7 +41,7 @@
   position: absolute;
   width:517px;
   height: 517px;
-  background: url(image1/VandAandT.svg);
+  background: url(../image1/VandAandT.svg);
   left: 393px;
   top: 655px;
 }
@@ -50,7 +50,7 @@
   position: absolute;
   width:609px;
   height: 609px;
-  background: url(image1/VandA.svg);
+  background: url(../image1/VandA.svg);
  left: 40px;
  top: 644px;
 }
@@ -59,7 +59,7 @@
   position: absolute;
   width:706px;
   height: 706px;
-  background: url(image1/TandE.svg);
+  background: url(../image1/TandE.svg);
   right: -54px;
   top: 596px;
 
@@ -86,7 +86,7 @@
 .first .twel{
  display: block;
  position: absolute;
- background: url(image1/p1.svg);
+ background: url(../image1/p1.svg);
  width:469px;
  height: 489px;
  left: 68px;
@@ -256,31 +256,31 @@
 }
 /* hover*/
 .first .one:hover{
-  background: url(image1/p_1.svg);
+  background: url(../image1/p_1.svg);
   transition: 1.5s;
 }
 .first .twel:hover{
-  background: url(image1/p1_1.svg);
+  background: url(../image1/p1_1.svg);
   transition: 1.5s;
 }
 .first .four:hover{
-  background: url(image1/TandIandA_1.svg);
+  background: url(../image1/TandIandA_1.svg);
   transition: 1.5s;
 }
 .first .five:hover{
-  background: url(image1/VandAandT_1.svg);
+  background: url(../image1/VandAandT_1.svg);
   transition: 1.5s;
 }
 .first .seven:hover{
-  background: url(image1/TandE_1.svg);
+  background: url(../image1/TandE_1.svg);
   transition: 1.5s;
 }
 .first .three:hover{
-  background: url(image1/IandR_1.svg);
+  background: url(../image1/IandR_1.svg);
   transition: 1.5s;
 }
 .first .six:hover{
-  background: url(image1/VandA_1.svg);
+  background: url(../image1/VandA_1.svg);
   transition: 1.5s;
 }
 /* animation */

@@ -133,7 +133,7 @@
   width: 630px;
   height: 413px;
   left: 40px;
-  background: url(image2/listya.svg);
+  background: url(../image2/listya.svg);
   animation: listok1 1.2s steps(1) infinite alternate;
 }
 .second-thirt .listok2{
@@ -142,7 +142,7 @@
   width: 766px;
   height: 523px;
   right: 5px;
-  background: url(image2/listya2.svg);
+  background: url(../image2/listya2.svg);
   animation: listok2 4s steps(1) infinite alternate;
 }
 /* hover*/
