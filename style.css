@@ -4,7 +4,8 @@
 @import "stylesheet/responsive/css";
 @font-face {
 font-family: TT Hazelnuts Edu;
-src: url(fonts/TT Hazelnuts Educational Regular.ttf);}
+src: url("stylesheet/fonts/TT Hazelnuts Educational Regular.ttf");
+}
 html{
     background: gray;
     display: block;
