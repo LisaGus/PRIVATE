@@ -2,3 +2,20 @@
 @import "stylesheet/block2.css";
 @import "stylesheet/block3.css";
 @import "stylesheet/responsive/css";
+@font-face {
+font-family: TT Hazelnuts Edu;
+src: url(fonts/TT Hazelnuts Educational Regular.ttf);}
+html{
+    background: gray;
+    display: block;
+    height: 100%;
+  }
+  body{
+    width: 100%;
+    background-color: white;
+    display: block;
+    width: 1440px;
+    height: 7900px;
+    margin: 0 auto;
+    position: relative;
+  }
